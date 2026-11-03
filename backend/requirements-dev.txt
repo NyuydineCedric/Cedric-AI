@@ -1,0 +1,4 @@
+# Extra dependencies for running the test suite (not needed to run the app itself).
+-r requirements.txt
+pytest==8.3.4
+httpx==0.28.1

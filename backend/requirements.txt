@@ -1,0 +1,27 @@
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+python-dotenv==1.2.3
+
+# Phase 2: authentication
+sqlalchemy==2.0.44
+bcrypt==4.2.1
+pyjwt==2.10.1
+pydantic-settings==2.7.1
+email-validator==2.2.0
+
+# Phase 3: Gemini integration
+google-genai>=1.0.0
+
+# Phase 4: document upload (multipart/form-data parsing)
+python-multipart==0.0.20
+
+# Phase 5: document processing (text extraction)
+pymupdf==1.26.5
+python-docx==1.2.0
+python-pptx==1.0.2
+
+# Phase 6: embeddings / vector math
+numpy==2.2.1
+
+beautifulsoup4==4.12.3
+lxml==5.2.2
